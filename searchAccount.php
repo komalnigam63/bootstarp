@@ -53,11 +53,9 @@ th, td {
       <th>pincode</th>
       <th>state</th>
       <th>reg_date</th>
-      <th>action</th> 
-      
+      <th>action</th>   
     </tr> 
     </thead>
-    
     <tbody>
 
  <?php
