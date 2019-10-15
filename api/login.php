@@ -1,9 +1,9 @@
 <?php
-include '../conn.php';
 if(isset($_POST)){
-$username = $_POST['username'];
+include '../conn.php';
+$email = $_POST['email'];
 $password= $_POST['password'];
-$sql = "select * from admin where username='".$username."' and password='".$password."'";
+$sql = "select * from creataccount where email='".$email."' and password='".$password."'";
 $result = $conn->query($sql);
 $rowcount=mysqli_num_rows($result);
 //print_r(count($status));die;

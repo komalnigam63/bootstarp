@@ -1,6 +1,6 @@
 <?php
-include '../conn.php';
 if(isset($_POST)){
+include '../conn.php';
 $firstname = $_POST['firstname'];
 $lastname = $_POST['lastname'];
 $email= $_POST['email'];
