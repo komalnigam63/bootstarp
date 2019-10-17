@@ -57,7 +57,7 @@ $row=mysqli_fetch_row($result);
 	</style>
  </head>
  <body>
-	<h2>gmail account</h2>
+	<h2>student registration</h2>
 	<form method="POST" name="creataccount" action="">
 		<table>
 			<tr>
@@ -97,7 +97,7 @@ $row=mysqli_fetch_row($result);
 				<td><input type="text" name="state" value="" required></td>
 		
             <tr>
-            	<td rowspan ="2"><input class="btn" type = "submit" name = "submit" value = "submit"></td>
+            	<td rowspan ="2"><input class="btn" type = "submit" name = "submit" value = "update"></td>
             	</tr>
             </form>
 
