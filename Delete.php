@@ -26,5 +26,5 @@ $conn->close();
 }
 ?> 
 <br>
-<a href="gmailaccount.php">back</a>
+<a href="studentregistration.php">back</a>
 

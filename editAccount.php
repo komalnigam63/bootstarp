@@ -102,6 +102,6 @@ $row=mysqli_fetch_row($result);
             </form>
 
         </body>
-         <a href="gmailaccount.php">Back</a>
+         <a href="studentregistration.php">Back</a>
         </html>
         

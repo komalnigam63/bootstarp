@@ -88,7 +88,7 @@ foreach ($result as $value) {
 </div>
 </table>
 <br>
-<a href="gmailaccount.php">Back</a>
+<a href="studentregistration">Back</a>
 
 </body>
 </html>
