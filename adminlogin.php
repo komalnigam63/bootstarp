@@ -15,7 +15,6 @@ if(isset($_POST['submit'])){
 $username = $_POST['username'];
 $password= $_POST['password'];
 
-
 //username,password
  $sql = "select * from admin where username='".$username."' and password='".$password."'";
 $result = $conn->query($sql);
