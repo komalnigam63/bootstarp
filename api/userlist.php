@@ -1,8 +1,6 @@
 <?php
 
 include '../conn.php';
-$email = $_POST['email'];
-$password= $_POST['password'];
 $sql = "select * from creataccount";
 $result = $conn->query($sql);
 $rowcount=mysqli_num_rows($result);

@@ -63,9 +63,7 @@ if ($rowcount) {
                   <label>username:</label><input type = "text" name="username" class="box"><br><br>
                   <label>password  :</label><input type = "password" name="password" class="box"><br><br>
                   <input type= "submit" value="Login" name="submit"><br />
-               </form>
-               
-               
+               </form>  
                <div style = "font-size:11px; color:#cc0000; margin-top:10px">   
 				</div>	
             </div>

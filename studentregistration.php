@@ -46,7 +46,7 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-.btn{padding: 10px;background:white; border-radius: 10px;}
+.btn{padding: 10px;background:lightgray; border-radius: 10px;}
 
 .table{
 	border: 1px solid;
@@ -58,7 +58,7 @@ th, td {
 	</style>
 </head>
 <body>
-	<h2>gmail account</h2>
+	<h2>Student registration</h2>
 	<form method="POST" name="creataccount" action="">
 		<table>
 			<tr>
@@ -98,7 +98,7 @@ th, td {
 				<td><input type="text" name="state" value="" required></td>
 		
             <tr>
-            	<td rowspan ="2"><input class="btn" type = "submit" name = "submit" value = "submit"></td>
+            	<td rowspan ="2"><input class="btn" type = "submit" name = "submit" value = "register"></td>
 
             </tr>
  	    <table class="table">
