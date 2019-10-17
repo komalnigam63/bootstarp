@@ -88,7 +88,7 @@ foreach ($result as $value) {
 </div>
 </table>
 <br>
-<a href="studentregistration">Back</a>
+<a href="studentregistration.php">Back</a>
 
 </body>
 </html>
