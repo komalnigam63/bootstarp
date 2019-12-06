@@ -1,0 +1,29 @@
+<html>
+<head>
+<script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+</head>
+<body>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input type="text" name="noofppl" id="txt">
+<input type="text" name="noofppl2" id="txt2">
+
+
+<div></div>
+   <script type="text/javascript">
+   	$("#txt2").hide();
+ $("#txt").keyup(function(event) {
+ text = $(this).val();
+ $("div").text(text);
+});
+$('#txt').focusout(function(){
+ if($(this).val().length > 15){
+ 	$("#txt2").show();
+ 
+}
+})
+   </script>
+
+<div class="as-console-wrapper"></div>
+
+</body>
+</html>

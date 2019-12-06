@@ -71,11 +71,11 @@ th, td {
 			</tr>
 			<tr>
 				<td>email:</td>
-				<td><input type="email" name="email" value="" required></td>
+				<td><input type="email" name="email" class="form-control" placeholder="email" value="" required></td>
 			</tr>
 			<tr>
 				<td>password:</td>
-				<td><input type="text" name="password" value="" required></td>
+				<td><input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password"></td>
 			</tr>
 			<tr>
 				<td>contact_number:</td>
