@@ -30,7 +30,7 @@ $json = '{
 
 $obj = json_decode($json, true);
 
-print_r($obj);
+//print_r($obj);
 
 foreach ($obj as $key => $value) {
 
@@ -55,7 +55,16 @@ $result = $conn->query($sql);
 
 
 }
+if ($result) {
 
-
+	$response_array['status'] = '200';
+	$response_array['message'] = 'New record created successfully';
+    echo json_encode($response_array);
+	# code...
+}else{
+    $response_array['status'] = '201';
+	$response_array['message'] = 'New record not created';
+    echo json_encode($response_array);
+}
 }
 ?>
