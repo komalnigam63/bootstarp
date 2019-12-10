@@ -32,9 +32,9 @@ $obj = json_decode($json, true);
 
 //print_r($obj);
 
-foreach ($obj as $key => $value) {
+foreach ($obj as $values) {
 
-	foreach ($value as $key => $value) {
+	foreach ($values as $value) {
 
 $name = $value['name'];
 $email= $value['email'];
