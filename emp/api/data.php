@@ -2,35 +2,8 @@
 if(isset($_POST)){
 include '../../conn.php';
 $json = $_POST['data'];
-//$arrData = json_decode($data, true);
-
-/*
-$json = '{
-    "addresses": [
-        {
-            
-            "name": "hcl",
-            "email": "B86",
-            "password": "noida",
-            "phone": "noida"
-       
-        },
-        {
-            
-            "name": "hcl",
-            "email": "B86",
-            "password": "noida",
-            "phone": "noida"
-        }
-        
-    ],
-    "status": "success",
-    "message": "listing sucessful!"
-}';*/
 
 $obj = json_decode($json, true);
-
-//print_r($obj);
 
 foreach ($obj as $values) {
 
