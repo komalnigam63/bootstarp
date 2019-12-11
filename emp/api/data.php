@@ -7,7 +7,7 @@ $obj = json_decode($json, true);
 
 foreach ($obj as $values) {
 
-	foreach ($values as $value) {
+foreach ($values as $value) {
 
 $name = $value['name'];
 $email= $value['email'];
