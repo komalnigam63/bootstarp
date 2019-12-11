@@ -20,8 +20,6 @@ $sql = "INSERT INTO employee (`name`,`email`,`password`,`phone`) VALUES ('".$nam
 $result = $conn->query($sql);
 
 }
-	
-	
 
 
 }
