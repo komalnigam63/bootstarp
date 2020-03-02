@@ -1,4 +1,5 @@
 <?php
+error_reporting(0);
 if(isset($_POST)){
 include '../../conn.php';
 $json = $_POST['data'];
@@ -17,9 +18,9 @@ $phone= $value['phone'];
 $sql = "INSERT INTO employee (`name`,`email`,`password`,`phone`) VALUES ('".$name."','".$email."','".$password."','".$phone."')";
 
 $result = $conn->query($sql);
-//print_r($result);
 
-}		
+}
+
 
 }
 if ($result) {
@@ -27,9 +28,9 @@ if ($result) {
 	$response_array['status'] = '200';
 	$response_array['message'] = 'New record created successfully';
     echo json_encode($response_array);
-	# code...
+	
 }else{
-    $response_array['status'] = '201';
+        $response_array['status'] = '201';
 	$response_array['message'] = 'New record not created';
     echo json_encode($response_array);
 }

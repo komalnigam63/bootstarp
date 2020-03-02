@@ -1,5 +1,5 @@
 <?php
-if(isset($_POST)){
+if(isset($_POST['email'])){
 include '../conn.php';
 $email = $_POST['email'];
 $password= $_POST['password'];
